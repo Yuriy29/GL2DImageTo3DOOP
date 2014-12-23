@@ -1,0 +1,35 @@
+﻿Build started 23.12.2014 15:51:32.
+     1>Project "C:\Users\y.dopa\Documents\Visual Studio 2012\GL2DImageTo3D-master\GLProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CreateGeometryScene.cpp GLmain.cpp ImageData.cpp Renderer.cpp RotateImage.cpp texture.cpp
+         CreateGeometryScene.cpp
+         GLmain.cpp
+     1>GLmain.cpp(309): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>GLmain.cpp(310): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+         ImageData.cpp
+         Renderer.cpp
+         RotateImage.cpp
+         texture.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\MyOpenGLProject.res" MyOpenGLProject.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\y.dopa\Documents\Visual Studio 2012\GL2DImageTo3D-master\Release\MyOpenGLProject.exe" /INCREMENTAL /NOLOGO glew32.lib glew32mx.lib glew32mxs.lib glew32s.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\y.dopa\Documents\Visual Studio 2012\GL2DImageTo3D-master\Release\MyOpenGLProject.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\y.dopa\Documents\Visual Studio 2012\GL2DImageTo3D-master\Release\MyOpenGLProject.lib" /MACHINE:X86 /SAFESEH Release\MyOpenGLProject.res
+         Release\CreateGeometryScene.obj
+         Release\GLmain.obj
+         Release\ImageData.obj
+         Release\OpenFileDialog.obj
+         Release\Renderer.obj
+         Release\RotateImage.obj
+         Release\shaders.obj
+         Release\texture.obj
+         Release\VertexStruct.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+         GLProject.vcxproj -> C:\Users\y.dopa\Documents\Visual Studio 2012\GL2DImageTo3D-master\Release\MyOpenGLProject.exe
+     1>Done Building Project "C:\Users\y.dopa\Documents\Visual Studio 2012\GL2DImageTo3D-master\GLProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.59

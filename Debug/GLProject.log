@@ -1,0 +1,33 @@
+﻿Build started 23.12.2014 15:50:53.
+     1>Project "C:\Users\y.dopa\Documents\Visual Studio 2012\GL2DImageTo3D-master\GLProject.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CreateGeometryScene.cpp GLmain.cpp ImageData.cpp OpenFileDialog.cpp Renderer.cpp RotateImage.cpp shaders.cpp texture.cpp VertexStruct.cpp
+         VertexStruct.cpp
+         texture.cpp
+         shaders.cpp
+         RotateImage.cpp
+         Renderer.cpp
+         OpenFileDialog.cpp
+         ImageData.cpp
+         GLmain.cpp
+         CreateGeometryScene.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\MyOpenGLProject.res" MyOpenGLProject.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\y.dopa\Documents\Visual Studio 2012\GL2DImageTo3D-master\Debug\MyOpenGLProject.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\y.dopa\Documents\Visual Studio 2012\GL2DImageTo3D-master\Debug\\..\libs" glew32.lib glew32mx.lib glew32mxs.lib glew32s.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\y.dopa\Documents\Visual Studio 2012\GL2DImageTo3D-master\Debug\MyOpenGLProject.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\y.dopa\Documents\Visual Studio 2012\GL2DImageTo3D-master\Debug\MyOpenGLProject.lib" /MACHINE:X86 Debug\MyOpenGLProject.res
+         Debug\CreateGeometryScene.obj
+         Debug\GLmain.obj
+         Debug\ImageData.obj
+         Debug\OpenFileDialog.obj
+         Debug\Renderer.obj
+         Debug\RotateImage.obj
+         Debug\shaders.obj
+         Debug\texture.obj
+         Debug\VertexStruct.obj
+         GLProject.vcxproj -> C:\Users\y.dopa\Documents\Visual Studio 2012\GL2DImageTo3D-master\Debug\MyOpenGLProject.exe
+     1>Done Building Project "C:\Users\y.dopa\Documents\Visual Studio 2012\GL2DImageTo3D-master\GLProject.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.62
